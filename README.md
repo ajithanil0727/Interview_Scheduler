@@ -43,6 +43,14 @@ Open your terminal, navigate to the desired path and run the following command t
 
 - docker-compose exec web python manage.py migrate
 
+## Tool recommened to test Interview_Scheduler
+
+- Postman: For testing and interacting with API endpoints.
+- SQLite Studio: For viewing and managing the database.
+
+
 ### 2. Api EndPoints
 
 Api Documentation : ( https://www.notion.so/API-Documentation-Interview-Scheduler-ac5e1d3feb434694ad5bf7580fe84147?pvs=4 )
+
+
