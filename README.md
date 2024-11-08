@@ -36,7 +36,7 @@ Open your terminal, navigate to the desired path and run the following command t
 
 - git clone https://github.com/ajithanil0727/Interview_Scheduler.git    #wait to clone the repository
 - cd interview_scheduler                                                #navigate to the project directory
-- docker-compose build                                                  #build the docker container
+- docker-compose build                                                  #build the docker container, make sure docker engine is runnig in the sysytem
 - docker-compose up                                                     #Run the docker container
 
 ### 2. Api EndPoints
