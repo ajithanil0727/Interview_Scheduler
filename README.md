@@ -39,6 +39,10 @@ Open your terminal, navigate to the desired path and run the following command t
 - docker-compose build                                                  #build the docker container, make sure docker engine is runnig in the sysytem
 - docker-compose up                                                     #Run the docker container
 
+*If some error occure showing something like "Table not created", After "docker-compose up" command open another terminal with same root folder and run the below command else continue to use the api.
+
+- docker-compose exec web python manage.py migrate
+
 ### 2. Api EndPoints
 
 Api Documentation : ( https://www.notion.so/API-Documentation-Interview-Scheduler-ac5e1d3feb434694ad5bf7580fe84147?pvs=4 )
