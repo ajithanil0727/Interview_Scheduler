@@ -34,11 +34,11 @@ Follow these steps to set up and run the Interview Scheduler project locally usi
 
 Open your terminal, navigate to the desired path and run the following command to clone the repository:
 
-- git clone <your-github-repo-url>  #wait to clone the repository
-- cd interview_scheduler            #navigate to the project directory
-- docker-compose build              #build the docker container
-- docker-compose up                 #Run the docker container
+- git clone https://github.com/ajithanil0727/Interview_Scheduler.git    #wait to clone the repository
+- cd interview_scheduler                                                #navigate to the project directory
+- docker-compose build                                                  #build the docker container
+- docker-compose up                                                     #Run the docker container
 
-#### Api EndPoints
+### 2. Api EndPoints
 
 Api Documentation : ( https://www.notion.so/API-Documentation-Interview-Scheduler-ac5e1d3feb434694ad5bf7580fe84147?pvs=4 )
